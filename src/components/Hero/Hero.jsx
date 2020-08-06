@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import bubble from '../../images/bubble.png';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -39,6 +40,15 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
+      <div className="bubbles">
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+        <img src={bubble} alt="bubble" />
+      </div>
     </section>
   );
 };
