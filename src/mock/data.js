@@ -1,5 +1,4 @@
 import { v4 as uuidv4 } from 'uuid';
-import img1 from './project/facedetection.png'
 // HEAD DATA
 export const headData = {
   title: 'Yueheng Xiang(Coco)', // e.g: 'Name | Developer'
@@ -18,9 +17,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profilea.jpg',
-  paragraphOne: 'Hello, my name is Yueheng Xiang, as known as Coco. I am passionate about website development and I see myself as a front end developer.',
-  paragraphTwo: "I have competences of skill sets, varies from frontend techniques and tools HTML5, CSS3, bootstrap, JavaScript, ReactJS, React-native to backEnd C#, asp.net, sql server and more.",
-  paragraphThree: "I've already created some projects during my study of certificate and diploma for almost a year that i just finished. I am a quick-learner, love problem solving, good at time management and love to learn new things.",
+  paragraphOne:
+    'Hello, my name is Yueheng Xiang, as known as Coco. I am passionate about website development and I see myself as a front end developer.',
+  paragraphTwo:
+    'I have competences of skill sets, varies from frontend techniques and tools HTML5, CSS3, bootstrap, JavaScript, ReactJS, React-native to backEnd C#, asp.net, sql server and more.',
+  paragraphThree:
+    "I've already created some projects during my study of certificate and diploma for almost a year that i just finished. I am a quick-learner, love problem solving, good at time management and love to learn new things.",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -28,19 +30,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv4(),
-    img: 'facedetection.png',
-    title: 'Face Detection',
-    info: 'Face detection web application, verify the image through URL and auto detect the faces and predict ages, including login and register pages.',
-    info2: 'By using Clarifai Api to create Face Detection, automatically recognize faces in the picture. Great for users who relies on demographic information to understand their customer.',
-    url: 'https://coco-facedetection.netlify.app',
-    repo: 'https://github.com/cocoxiang123/FaceDetection', // if no repo, the button will not show up
+    img: 'miniProjects.png',
+    title: 'Mini Projects',
+    info:
+      'Small projects built by using HTML, CSS, Vanilla JavaScript/React. Only for personal daily practise use.',
+    info2:
+      'List of mini projects varies from basic form validation, small games TicTacToe to apps fetching data from APIs.  ',
+    url: 'https://cocoxiang123.github.io/mini_projects_portfolio/',
+    repo: 'https://github.com/cocoxiang123/JS-mini-projects', // if no repo, the button will not show up
   },
   {
     id: uuidv4(),
     img: 'restaurant.png',
     title: 'BeanSean Restaurant',
-    info: 'This project is a management system for BeanSean Restaurant. Customer could find informations on the website and register as member to make a reservation. ',
-    info2: 'Authorized staff and manager could make reservation for customers, manage sittings and tables schedule, view monthly report and more functionallity.',
+    info:
+      'This project is a management system for a restaurant. Staff and Customer can find informations on the website, login and register to manage or make a reservation. ',
+    info2:
+      'This is a full stack project used C# and Asp.net MVC web application through EF Core to connect to Microsoft SQL server.',
     url: 'https://t4rms.azurewebsites.net/',
     repo: 'https://github.com/cocoxiang123/BeanSeanRMS', // if no repo, the button will not show up
   },
@@ -48,19 +54,12 @@ export const projectsData = [
     id: uuidv4(),
     img: 'beachresort.png',
     title: 'Beach Resort',
-    info: 'This project provides hotel informations for beach resort. It shows all the hotel rooms details for customer to choose what they want. Customer can search by room type, guests, price and choose specific feature.',
-    info2: '',
+    info:
+      'This project provides hotel informations for beach resort. You can see hotel rooms detail and filter the list, search by room type, guests, price and choose specific feature.',
+    info2:
+      'The Project used Responsive web design, bootstrap and React. Including React Hooks, react router, etc.',
     url: 'https://react-beach-resort-coco.netlify.app/',
     repo: 'https://github.com/cocoxiang123/Beachresort', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv4(),
-    img: 'budgetcalculator.png',
-    title: 'Daily Budget Calculator',
-    info: 'Small project use local storage to store notes and calculator to manage your budget. It sums up all the expenses in the record. Notes can be edited and deleted as well. Friendly alert messages will pop up for operations.',
-    info2: '',
-    url: 'https://coco-dailycalculator.netlify.app/',
-    repo: 'https://github.com/cocoxiang123/React-budgetCalculator', // if no repo, the button will not show up
   },
 ];
 
