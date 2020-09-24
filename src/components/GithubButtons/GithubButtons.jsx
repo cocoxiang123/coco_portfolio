@@ -23,6 +23,7 @@ const GithubButton = () => (
     >
       Star
     </GitHubButton>
+    <h2>Github</h2>
   </>
 );
 

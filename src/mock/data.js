@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'I have competences of skill sets, varies from frontend techniques and tools HTML5, CSS3, bootstrap, JavaScript, ReactJS, React-native to backEnd C#, asp.net, sql server and more.',
   paragraphThree:
-    "I've already created some projects during my study of certificate and diploma for almost a year that i just finished. I am a quick-learner, love problem solving, good at time management and love to learn new things.",
+    "I've already created some projects during my study of certificate and diploma for almost a year that i just finished. I am a quick-learner, love solving problems, good at time management and love to learn new things.",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -52,6 +52,17 @@ export const projectsData = [
   },
   {
     id: uuidv4(),
+    img: 'cov19.PNG',
+    title: 'COVID-19 tracker',
+    info:
+      'The project shows the global and infected country data around the world, with selected form to choose and show data via linear and bar charts',
+    info2:
+      'React application, using React-js-chart, Material UI and NPM CountUp created the number animation',
+    url: 'https://cov19countrytracker.netlify.app/',
+    repo: 'https://github.com/cocoxiang123/Cov19_tracker', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv4(),
     img: 'beachresort.png',
     title: 'Beach Resort',
     info:
@@ -60,6 +71,17 @@ export const projectsData = [
       'The Project used Responsive web design, bootstrap and React. Including React Hooks, react router, etc.',
     url: 'https://react-beach-resort-coco.netlify.app/',
     repo: 'https://github.com/cocoxiang123/Beachresort', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv4(),
+    img: 'weather.PNG',
+    title: 'Weather App',
+    info:
+      'This is a progressive web application, you can visit in website or install as Desktop app and mobile application. ',
+    info2:
+      'React Application, created a service worker and manifest.JSON. Pass all checks in Google lighthouse audit',
+    url: 'https://coco-pwa-weatherapp.netlify.app/',
+    repo: 'https://github.com/cocoxiang123/PWA_WeatherApp', // if no repo, the button will not show up
   },
 ];
 
